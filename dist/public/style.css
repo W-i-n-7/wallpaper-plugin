@@ -2,8 +2,8 @@ body {
 	background-image: url(wallpaper.png);
 }
 :root {
-	--button-bg: #55a;
+	--button-bg: #6080aa;
 }
 :root .theme-dark {
-	--button-bg: #444488;
+	--button-bg: #334455;
 }
