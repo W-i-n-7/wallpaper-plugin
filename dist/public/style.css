@@ -1,5 +1,7 @@
 body {
 	background-image: url(wallpaper.png);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 :root {
 	--button-bg: #6080aa;
