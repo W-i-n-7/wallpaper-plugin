@@ -11,3 +11,8 @@ body {
 :root .theme-dark {
 	--button-bg: #334455;
 }
+
+/* Comment this out to make top bar black */
+.hide-back, .upload-toolbar, header {
+	background-color: rgba(0, 0, 0, 0);
+}
