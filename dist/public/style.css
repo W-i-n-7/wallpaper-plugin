@@ -1,25 +1,18 @@
 body {
-	background-image: url(wallpaper.png);
+	background-image: url(wallpaper.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
-:root {
-	--button-bg: #6080aa;
-}
-:root .theme-dark {
-	--button-bg: #334455;
-}
-
-/* Top bar */
-/* You can adjust the transparency of the background with the "0.25" meaning 25% */
 .hide-back, .upload-toolbar, header {
 	background-color: rgba(0, 0, 0, 0.25);
 }
-
-/* Directory listing */
-/* You can adjust the transparency of the background with the "0.25" meaning 25% */
 .dir {
 	background-color: rgba(0, 0, 0, 0.25);
+}
+.entry-comment {
+	background-color: rgba(0, 0, 0, 0.25);
+        margin-bottom: 0em;
+        padding-bottom: .5em;
 }
